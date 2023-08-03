@@ -1,0 +1,33 @@
+{
+  "name": "@kessler/csv-splitter",
+  "version": "1.0.0",
+  "description": "a tool for splitting csv files",
+  "main": "index.js",
+  "bin": {
+    "csv-splitter": "./index.mjs"
+  },
+  "scripts": {
+    "test": "npx ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kessler/node-csv-splitter.git"
+  },
+  "keywords": [
+    "csv",
+    "split"
+  ],
+  "author": "Yaniv Kessler",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kessler/node-csv-splitter/issues"
+  },
+  "homepage": "https://github.com/kessler/node-csv-splitter#readme",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "csv": "^6.3.1"
+  },
+  "devDependencies": {
+    "ava": "^5.3.1"
+  }
+}
